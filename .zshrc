@@ -115,3 +115,4 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias nvim="~/nvim.appimage"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
