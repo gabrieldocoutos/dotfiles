@@ -31,6 +31,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+Plug 'elixir-editors/vim-elixir'
 
 
 call plug#end()
