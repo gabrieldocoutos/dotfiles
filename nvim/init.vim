@@ -1,5 +1,5 @@
-set tabstop=4 softtabstop=4
-set shiftwidth=4
+set tabstop=2 softtabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 set exrc
@@ -38,6 +38,7 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 call plug#end()
 
