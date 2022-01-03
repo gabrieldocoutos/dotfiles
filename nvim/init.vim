@@ -38,6 +38,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
