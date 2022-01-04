@@ -26,6 +26,7 @@ let g:netrw_winsize = 80
 call plug#begin('~/.vim/plugged')
 
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'gruvbox-community/gruvbox'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'pangloss/vim-javascript'
@@ -95,11 +96,8 @@ END
 set laststatus=2
 set statusline+=%F
 
-packadd! dracula_pro
-syntax enable
-let g:dracula_colorterm = 0
-colorscheme dracula_pro
-
+colorscheme gruvbox
+highlight Normal guibg=none
 
 let mapleader = " "
 nnoremap <leader>fg <cmd>Telescope live_grep<cr> 
