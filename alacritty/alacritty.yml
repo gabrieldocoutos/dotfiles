@@ -134,7 +134,7 @@ colors:
 
 # Font configuration
 font:
-  size: 13
+  size: 11
   normal:
     family: Hack Nerd Font Mono
     # Default:
