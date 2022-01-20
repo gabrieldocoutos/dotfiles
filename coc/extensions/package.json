@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "@yaegassy/coc-volar": ">=0.8.4",
     "coc-eslint": ">=1.5.2",
     "coc-json": ">=1.4.0",
     "coc-prettier": ">=1.1.24",
     "coc-svelte": ">=0.4.1",
     "coc-tailwindcss": ">=0.7.0",
-    "coc-tsserver": ">=1.9.4",
-    "coc-vetur": ">=1.2.5"
+    "coc-tsserver": ">=1.9.4"
   }
 }

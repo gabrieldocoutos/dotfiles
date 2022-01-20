@@ -40,7 +40,6 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'posva/vim-vue' 
 
 call plug#end()
 
