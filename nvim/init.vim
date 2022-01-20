@@ -40,6 +40,10 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
 
 call plug#end()
 
