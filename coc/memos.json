@@ -1,1 +1,5 @@
-{}
+{
+  "@yaegassy/coc-volar|/home/gabriel/workspace/vue-app": {
+    "coc-volar-ts-server-path": "/home/gabriel/workspace/dotfiles/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  }
+}
