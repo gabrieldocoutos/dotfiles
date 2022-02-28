@@ -119,7 +119,7 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
-nnoremap <leader>fg <cmd>Telescope live_grep<cr> 
+nnoremap <leader>fg <cmd>lua require 'telescope.builtin'.live_grep { only_sort_text = true} <cr> 
 nnoremap <leader>ff <cmd>lua require'telescope.builtin'.find_files({ find_command = {'rg', '--files', '--hidden', '-g', '!.git' }})<cr>
 
 " Use tab for trigger completion with characters ahead and navigate.
