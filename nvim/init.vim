@@ -40,17 +40,14 @@ Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'kyazdani42/nvim-tree.lua'
+
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
 
 call plug#end()
 
 
-
 lua << END
-
-require'nvim-tree'.setup()
 
 require'nvim-web-devicons'.setup {
  -- your personnal icons can go here (to override)
