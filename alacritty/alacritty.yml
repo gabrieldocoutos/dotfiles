@@ -1,9 +1,10 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
-# Colors (Dracula PRO)
+# Import additional configuration files
+# Colors (Dracula PRO - Blade)
 colors:
   # Default colors
   primary:
-    background: '0x22212c'
+    background: '0x212c2a'
     foreground: '0xf8f8f2'
 
     # Bright and dim foreground colors
@@ -19,7 +20,7 @@ colors:
   # Colors which should be used to draw the terminal cursor. If these are unset,
   # the cursor color will be the inverse of the cell color.
   cursor:
-    text: '0x454158'
+    text: '0x415854'
     cursor: '0xf8f8f2'
 
   # Selection colors
@@ -29,11 +30,11 @@ colors:
   # If only text is unset the cell text color will remain the same.
   selection:
     text: '0xf8f8f2'
-    background: '0x454158'
+    background: '0x415854'
 
   # Normal colors
   normal:
-    black:   '0x22212c'
+    black:   '0x212c2a'
     red:     '0xff9580'
     green:   '0x8aff80'
     yellow:  '0xffff80'
@@ -44,7 +45,7 @@ colors:
 
   # Bright colors
   bright:
-    black:   '0x22212c'
+    black:   '0x212c2a'
     red:     '0xffaa99'
     green:   '0xa2ff99'
     yellow:  '0xffff99'
@@ -52,9 +53,6 @@ colors:
     magenta: '0xff99cc'
     cyan:    '0x99ffee'
     white:   '0xffffff'
-
-# Import additional configuration files
-#
 # Imports are loaded in order, skipping all missing files, with the importing
 # file being loaded last. If a field is already present in a previous import, it
 # will be replaced.
@@ -161,7 +159,7 @@ colors:
 
 # Font configuration
 font:
-  size: 13
+  size: 12
   normal:
     family: Hack Nerd Font Mono
     # Default:
