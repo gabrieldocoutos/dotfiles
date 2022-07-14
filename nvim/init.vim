@@ -1,5 +1,5 @@
-set tabstop=2 softtabstop=2
-set shiftwidth=2
+set tabstop=4 softtabstop=4
+set shiftwidth=4
 set expandtab
 set smartindent
 set exrc
@@ -43,6 +43,7 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
+Plug 'overcache/NeoSolarized'
 
 call plug#end()
 
@@ -115,13 +116,11 @@ set laststatus=2
 set statusline+=%F
 
 
-packadd! dracula_pro
 
 syntax enable
 
-let g:dracula_colorterm = 0
+colorscheme NeoSolarized
 
-colorscheme dracula_pro
 
 let mapleader = " "
 
