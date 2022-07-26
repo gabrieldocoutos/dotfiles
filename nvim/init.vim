@@ -43,7 +43,8 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
-Plug 'overcache/NeoSolarized'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+
 
 call plug#end()
 
@@ -119,7 +120,9 @@ set statusline+=%F
 
 syntax enable
 
-colorscheme NeoSolarized
+colorscheme tokyonight
+hi Normal guibg=NONE ctermbg=NONE
+
 
 
 let mapleader = " "
